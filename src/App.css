@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@keyframes rotateInfinite {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Custom rotation time */
+.rotate-infinite {
+  animation: rotateInfinite 3s linear infinite;
+}
+
+
+.terminal {
+  font-family: "IBM Plex Mono", serif;
+}
+
+.terminal-input {
+  caret-color: #fde68a; /* Ensures the caret is visible */
+  line-height: 1.5; /* Matches the height of the styled command display */
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
